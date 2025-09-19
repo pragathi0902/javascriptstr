@@ -1,0 +1,40 @@
+<html>
+	<body>
+		<script>
+			/*palindrome or not*/
+			var b="mom"
+			var a=""
+			var len=b.length //11
+		    for(i=len-1;i>=0;i--){
+				a=a+b.charAt(i)
+		    }
+			document.write(b+"<br>")
+			document.write(a+"<br>")
+			if(b==a){
+				document.write("Palindrome"+"<br>")
+			
+			}
+			else{
+				document.write("Not Palindrome"+"<br>")
+			}
+			/*first letter*/
+		    var a="ramya ramila"
+			var b=a.split(" ")
+			var c
+			var d
+			for(i=0;i<b.length;i++){
+				c=b[i].charAt(0).toUpperCase() 
+				d=b[i].slice(1)
+				document.write(c+d+"<br>")
+				
+			}
+		
+			
+		
+		</script>
+	
+	
+	</body>
+	
+
+</html>
